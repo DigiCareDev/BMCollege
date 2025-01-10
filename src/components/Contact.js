@@ -4,7 +4,7 @@ import { FaPhoneAlt, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
 function Contact() {
   return (
     <>
-      <div className="flex flex-col md:flex-row items-center justify-between p-8 bg-gray-100 rounded-lg shadow-lg"  id="contact">
+      <div className="flex flex-col md:flex-row items-center justify-between p-8"  id="contact">
         {/* Left Section with Image */}
         <div className="md:w-1/2 mt-6 md:mt-0 flex justify-center">
           <img

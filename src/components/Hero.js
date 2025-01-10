@@ -4,7 +4,7 @@ import Card from "./SingleComponents/Card";
 function Hero() {
   return (
     <>
-      <div className="flex flex-col md:flex-row items-center justify-between p-8 bg-gray-50 rounded-lg shadow-md" id="hero">
+      <div className="flex flex-col md:flex-row items-center justify-between p-8" id="hero">
         {/* Left Section */}
         <div className="md:w-1/2 space-y-4">
           <h1 className="text-3xl font-bold text-blue-700">
@@ -21,7 +21,7 @@ function Hero() {
             and comprehensive healthcare services under one roof.
           </p>
           
-          <h2>Explore. Innovate. Lead.</h2>
+          <h2 className="text-blue-700">Explore. Innovate. Lead.</h2>
         </div>
 
         {/* Right Section */}
@@ -34,7 +34,7 @@ function Hero() {
         </div>
       </div>
 
-      <div className="flex flex-wrap gap-4 p-4 justify-center items-center bg-gray-100 rounded-lg shadow-md">
+      <div className="flex flex-wrap gap-4 p-4 justify-center items-center ">
         <Card
           image="/images/adminster.webp"
           title="Admissions"

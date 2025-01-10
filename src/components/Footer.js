@@ -7,13 +7,13 @@ function Footer() {
 
   return (
     <>
-      <footer className="bg-white dark:bg-gray-900">
+      <footer className="bg-white text-blue-700">
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
-              <Link href="https://flowbite.com/" className="flex items-center">
+              <Link href="" className="flex items-center">
                 <img
-                  src="https://flowbite.com/docs/images/logo.svg"
+                  src="/images/logo.jpg"
                   className="h-8 me-3"
                   alt="FlowBite Logo"
                 />
@@ -24,23 +24,28 @@ function Footer() {
             </div>
             <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
-                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                <h2 className="mb-6 text-sm font-semibold text-blue-700 uppercase dark:text-white">
                   Resources
                 </h2>
                 <ul className="text-gray-500 dark:text-gray-400 font-medium">
                   <li className="mb-4">
-                    <Link href="https://flowbite.com/" className="hover:underline">
-                      Flowbite
+                    <Link href="#hero" className="hover:underline">
+                   Home
                     </Link>
                   </li>
                   <li>
-                    <a href="https://tailwindcss.com/" className="hover:underline">
-                      Tailwind CSS
-                    </a>
+                    <Link href="#directordesk" className="hover:underline">
+                    Director's Desk
+                    </Link>
+                  </li>
+                  <li className="mt-4">
+                    <Link href="#contact" className="hover:underline">
+                      Contact us
+                    </Link>
                   </li>
                 </ul>
               </div>
-              <div>
+              {/* <div>
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                   Follow us
                 </h2>
@@ -62,9 +67,9 @@ function Footer() {
                     </Link>
                   </li>
                 </ul>
-              </div>
+              </div> */}
               <div>
-                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                <h2 className="mb-6 text-sm font-semibold text-blue-700 uppercase dark:text-white">
                   Legal
                 </h2>
                 <ul className="text-gray-500 dark:text-gray-400 font-medium">

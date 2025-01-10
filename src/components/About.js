@@ -4,7 +4,7 @@ import CardTwo from "./SingleComponents/CardTwo";
 function About() {
   return (
     <>
-      <div className="flex flex-col md:flex-row items-center justify-between p-8 bg-gray-100 rounded-lg shadow-lg" id="about">
+      <div className="flex flex-col md:flex-row items-center justify-between p-8" id="about">
         {/* Left Section */}
         <div className="md:w-1/2 space-y-4">
           <h1 className="text-3xl font-bold text-blue-700">About Us</h1>

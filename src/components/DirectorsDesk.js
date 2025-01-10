@@ -16,8 +16,8 @@ function DirectorsDesk() {
             <div className="bg-white shadow-md rounded-lg p-6 space-y-6">
               {/* Title and Subtitle */}
               <div className="text-center">
-                <h1 className="text-3xl font-extrabold text-gray-800">Director's Desk</h1>
-                <h2 className="text-xl font-semibold text-gray-600 mt-2">Message from the Director</h2>
+                <h1 className="text-3xl font-extrabold text-blue-700">Director's Desk</h1>
+                <h2 className="text-xl font-semibold text-blue-400 mt-2">Message from the Director</h2>
               </div>
 
               {/* Message Content */}
@@ -37,7 +37,7 @@ function DirectorsDesk() {
                 <p>
                   I warmly invite you to be a part of the BIMS family and join us on this journey of excellence and transformation.
                 </p>
-                <p className="font-semibold mt-6">
+                <p className="font-semibold mt-6 text-blue-700">
                   With best regards,<br />
                   Babita Kumari<br />
                   Director, BM Institute of Medical Sciences<br />

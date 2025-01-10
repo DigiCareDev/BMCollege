@@ -14,7 +14,7 @@ function Card({ image, title, description }) {
         </Link>
         <div className="p-4">
           <Link href="#">
-            <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
+            <h5 className="mb-2 text-lg font-bold tracking-tight text-blue-700 dark:text-white">
               {title}
             </h5>
           </Link>
