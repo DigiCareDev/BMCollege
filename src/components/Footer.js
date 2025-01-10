@@ -2,7 +2,8 @@ import Link from "next/link";
 import React from "react";
 
 function Footer() {
-  const currentDate = new Date().getFullYear();
+  // const currentDate = new Date().getFullYear();
+  const currentDate = '2025'
 
   return (
     <>
