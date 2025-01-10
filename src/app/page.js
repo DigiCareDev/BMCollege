@@ -1,4 +1,4 @@
-import Contact from "../components/";
+import Contact from "../components/contact";
 import About from "../components/About";
 import DirectorsDesk from "../components/DirectorsDesk";
 import Footer from "../components/Footer";
